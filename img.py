@@ -166,4 +166,4 @@ input_folder = input('Enter the path to the folder containing images: ')
 #output_folder = input('Enter the path to the folder for saving compressed images: ')
 input_folder=input_folder.replace('"','')
 output_folder=input_folder+' (Compressed)'
-compress_images(input_folder, )
+compress_images(input_folder, output_folder)
